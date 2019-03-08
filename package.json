@@ -1,0 +1,24 @@
+{
+  "name": "node_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.5",
+    "nodemailer": "^4.6.7",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "shortid": "^2.2.12"
+  }
+}
